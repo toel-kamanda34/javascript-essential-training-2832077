@@ -4,3 +4,13 @@ In the console windows.document helps you see all the code in the website
 /*  multiline comment */
 
 <script></script>  script tag contains javascript code  and is normally pput at the botton th the document, because when browser is reading the code it reads from top to bottom annd when the browser is executing it will stop when it gets the script ,execute script then continue rendering the html
+use an external file  <script src="script.js"></script>
+
+putting the script tag at the bottom is also called render blocking,
+where html stops rendering, js fille is downloaded, executed and then html rendering continues
+
+async is when the script taf is at the top,when htm is rendering and then it gets a place where js is needed ,
+it starts downloading the external js while still rendring html,onces download is complete
+html rendering is stoped, js executed then html rendering continues
+
+defer is where html is rendering, it meet a js code , it downoads the external js,but only once the html has completed rendering will it execute the js
