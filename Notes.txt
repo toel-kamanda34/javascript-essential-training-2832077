@@ -1,0 +1,6 @@
+In the console windows.document helps you see all the code in the website
+
+// single line comment   
+/*  multiline comment */
+
+<script></script>  script tag contains javascript code  and is normally pput at the botton th the document, because when browser is reading the code it reads from top to bottom annd when the browser is executing it will stop when it gets the script ,execute script then continue rendering the html
