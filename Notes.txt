@@ -14,3 +14,26 @@ it starts downloading the external js while still rendring html,onces download i
 html rendering is stoped, js executed then html rendering continues
 
 defer is where html is rendering, it meet a js code , it downoads the external js,but only once the html has completed rendering will it execute the js
+
+type= "module" works almost the same way as components in react where we can separate and put objects in different files
+when you use type modue it is automatically set to defer
+
+objects are declared using const keyword, named using a variable name, const backpack = {} , currently 
+no properties which are object value pairs 
+const backpack = {
+    color:"red",
+}
+we can have methods inside
+since they are constant we can change the properties but we cant change the objects
+you cant do an assignment to a constant variable
+
+properties are separated by commas,
+use camelCase to name properties
+
+we use dot notation to access object properties
+
+bracket notation backpack["name"]
+or you can pass it in as a variable
+var query = "name"
+console.log(query)
+use bracket notation to get more control of the properties
