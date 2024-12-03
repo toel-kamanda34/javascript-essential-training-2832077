@@ -37,3 +37,6 @@ or you can pass it in as a variable
 var query = "name"
 console.log(query)
 use bracket notation to get more control of the properties
+use bracket notation for unconventional names ,i used numbers and i needed to use bracket notation
+
+this keyword is used to access properties of the same object
