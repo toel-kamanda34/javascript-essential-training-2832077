@@ -46,3 +46,14 @@ functions inside objects are called methods
 toggleLid: function (lidstatus) {
     this.lidOpen= lidStatus
 }
+
+Object Class BluePrint :
+class declaration using the class keyword 
+we use constructor and define parameters e.g name ,then we define properties {this.name = kendo}
+when using the class we use the new keyword and define just the values  {"Kendo"}
+then we use type module to sort of connect this two js files
+
+class declaration  class Name {} ,, name starts with capital
+class expression const Name = class {}
+
+to exted a class use the extend keywaord followed by the class ou want to extend

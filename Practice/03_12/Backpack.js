@@ -37,4 +37,44 @@ class Backpack {
   }
 }
 
-export default Backpack;
+class homeObject {
+  constructor(name, materialUsed, use) {
+    this.name = name;
+    this.materialUsed = materialUsed;
+    this.use = use;
+  }
+  describe() {
+    return `${this.name} is made of ${this.materialUsed} and used for ${this.use}.`;
+  }
+}
+
+class handBag {
+  constructor(name, color, straps, clothes, shoes) {
+    this.name = name;
+    this.color = color;
+    this.straps = straps;
+    this.shoppingBag = {
+      clothes: clothes,
+      shoes: shoes,
+    };
+  }
+}
+
+class HikingBackpack extends Backpack {
+  constructor(
+    name,
+    volume,
+    color,
+    pocketNum,
+    strapLengthL,
+    strapLengthR,
+    lidOpen,
+    hydrationCapacity
+  ) {
+    //initialize the parent class properties
+    super(name, volume, color, pocketNum, strapLengthL, strapLengthR, lidOpen);
+    //new property specific to HikingBackpack
+    this.hydrationCapacity = hydrationCapacity;
+  }
+}
+export { Backpack, homeObject, handBag, HikingBackpack };
