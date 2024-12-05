@@ -57,3 +57,6 @@ class declaration  class Name {} ,, name starts with capital
 class expression const Name = class {}
 
 to exted a class use the extend keywaord followed by the class ou want to extend
+
+querySelector("") returns the first element based on the query
+to return all matches use querySelectorAll("") 

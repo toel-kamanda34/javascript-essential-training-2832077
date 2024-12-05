@@ -37,7 +37,7 @@ class Backpack {
   }
 }
 
-class homeObject {
+class HomeObject {
   constructor(name, materialUsed, use) {
     this.name = name;
     this.materialUsed = materialUsed;
@@ -48,7 +48,7 @@ class homeObject {
   }
 }
 
-class handBag {
+class HandBag {
   constructor(name, color, straps, clothes, shoes) {
     this.name = name;
     this.color = color;
@@ -77,4 +77,4 @@ class HikingBackpack extends Backpack {
     this.hydrationCapacity = hydrationCapacity;
   }
 }
-export { Backpack, homeObject, handBag, HikingBackpack };
+export { Backpack, HomeObject, HandBag, HikingBackpack };
