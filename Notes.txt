@@ -66,3 +66,14 @@ document.querySelector("img").hasAttribute("src")//checking if the image has an 
 document.querySelector("img").getAttribute("src")// get the value of the attribute
 document.querySelector("img").setAttribute("alt", "A backpack drawing")// set value to an attribute
 document.querySelector("img").removeAttribute("alt") //remove an attribute
+
+
+to check a descendant based on id and class, there has to be space in between before the fullstop 
+ document.querySelector('#pack02 .backpack__name')
+to check the inline css style 
+ document.querySelector('#pack02 .backpack__name').style
+
+to set a style
+document.querySelector('#pack02 .backpack__name').style.backgroundColor = "red"
+
+
