@@ -76,4 +76,23 @@ to check the inline css style
 to set a style
 document.querySelector('#pack02 .backpack__name').style.backgroundColor = "red"
 
+we use typeof to check data type
+if (typeof a !== "number") {
+    thow new TypeError("argument must be a number");
+}
+
+
+== loose equivalence  5 == "5" // this is true in js even though one is a number and the other a string
+=== absolute equivalence 5 === "5" // this is false ,this in not absolutely equivalent, one is a string and the other a number
+
+in the if function whatever is in the bracket returns a boolean, so we are either testing for true or false
+
+
+Math Operators
+% modulo/modulus gives you the remainder
+a ** b (a raised to the power of b)
+
+a++ increment by 1
+
+
 
