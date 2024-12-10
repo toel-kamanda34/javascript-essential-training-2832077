@@ -95,7 +95,7 @@ a ** b (a raised to the power of b)
 a++ increment by 1
 
 array used to store , retrieve and process data
-join method outputs a string
+join method outputs an array as a string
 we can add items to the array 
 1. grab the length of the array and then assign it a value: index starts from zero, if it has 4 items then 
 the last item is index 3, i grab the lenght basically i am saying in the next index add this item
@@ -108,3 +108,19 @@ backContents.push("pencil",5)
 so push adds items to the end of the array, if i want to add them to the beginning of an array use unshift
 backContents.unshift("pencil",5)
 
+backContents.shift() remomes the first item in the array
+backContents.pop() removes the last item in the array
+
+
+
+sets store unique values of any type
+items in a set are unordered ,no index , and cannot be accessed randomly
+
+a new set is creayed using the new Set() constructor
+items.add("water bottles")
+
+add() method adds items to the set
+delete() method removes items from the set
+size() method checks the size of the set
+has() or includes() method checks if a specific item is present
+ 

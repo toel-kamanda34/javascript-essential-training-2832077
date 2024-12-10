@@ -45,3 +45,24 @@ let longItems = backpackContents.find(function (item) {
   }
 });
 console.log("longItems:", longItems);
+
+const itemsToPack = new Set();
+itemsToPack.add("water bottle");
+itemsToPack.add("laptop");
+itemsToPack.add("headphones");
+itemsToPack.add("snacks");
+itemsToPack.add("book");
+itemsToPack.add("sunscreen");
+
+const backpack1 = ["water bottle", "laptop"];
+const backpack2 = ["headphones", "snacks", "book"];
+
+itemsToPack.forEach((item) => {
+  if (backpack1.includes(item)) {
+    console.log(`${item} is packed in backpack 1`);
+  } else if (backpack2.includes(item)) {
+    console.log(`${item} is packed in backpack 2`);
+  } else {
+    console.log(`${item} is not packed`);
+  }
+});
