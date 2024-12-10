@@ -123,4 +123,37 @@ add() method adds items to the set
 delete() method removes items from the set
 size() method checks the size of the set
 has() or includes() method checks if a specific item is present
- 
+
+
+function - sort things in a series of steps
+//functon declaration
+function doSomeMath(a, b) {
+    let c = a + b;
+    return c;
+};
+
+//functon expression
+const doMoreMath = function(a = 3, b = 5) {
+    let c = a * b;
+    return c;
+};
+
+Immediately invoked function expression IIFE = THEY ARE functions that are involved almost Immediately
+(function(a, b) {
+    let a = 5;
+    let b = 6;
+    let c = doSomeMath(a,b);
+})();
+
+//arrow function
+const doMoreMath = (a , b) => {
+    let c = a * b;
+    return c;
+};
+
+//remove the curly brackets
+const doMoreMath = (a , b) => return c = a * b;
+
+// remove the brackets
+const doMoreMath = a , b => return c = a * b;
+
