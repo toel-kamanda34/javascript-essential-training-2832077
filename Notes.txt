@@ -157,3 +157,12 @@ const doMoreMath = (a , b) => return c = a * b;
 // remove the brackets
 const doMoreMath = a , b => return c = a * b;
 
+everything that happens in the browser is an event
+you can listen to this events and manipukate actions in the DOM,
+
+target.addEventListener(target, callback[, optional])
+
+button.addEventListener("click", (e) => {
+    console.log("button clicked)
+})
+
